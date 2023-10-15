@@ -1,10 +1,10 @@
+/* stylelint-disable selector-not-notation */
 /* stylelint-disable font-family-no-missing-generic-family-keyword */
 @font-face {
   font-family: "PT Sans";
   font-weight: 400;
   font-style: normal;
-  src: url("../fonts/ptsans-400.woff2") format("woff2"),
-    url("../fonts/ptsans-400.woff") format("woff");
+  src: url("../fonts/ptsans-400.woff2") format("woff2"), url("../fonts/ptsans-400.woff") format("woff");
   font-display: swap;
 }
 
@@ -1571,13 +1571,7 @@ body {
   display: grid;
   grid-template-columns: 155px 133px 154px 133px;
   grid-template-rows: 50px 40px 50px 40px 50px 40px 60px;
-  grid-template-areas: "arrival-date arrival-input arrival-input arrival-input"
-    ". error error error"
-    "departure-date departure-input departure-input departure-input"
-    ". date-available date-available date-available"
-    "adult adult-number child child-number"
-    ". . . ."
-    "button button button button";
+  grid-template-areas: "arrival-date arrival-input arrival-input arrival-input" ". error error error" "departure-date departure-input departure-input departure-input" ". date-available date-available date-available" "adult adult-number child child-number" ". . . ." "button button button button";
 }
 
 .booking-form label,
