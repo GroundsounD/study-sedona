@@ -17,7 +17,7 @@
         <nav>
           <ul class="menu__navigation-list">
             <li>
-              <a class="navigation__item current" href="#">Главная</a>
+              <a class="navigation__item navigation__item--current" href="#">Главная</a>
             </li>
             <li>
               <a class="navigation__item" href="#">О Седоне</a>
@@ -52,95 +52,95 @@
     </header>
     <main class="main-container">
       <article>
-        <section class="welcome-text">
+        <section class="main-container__welcome-image">
           <h3 class="visually-hidden">Картинка каньона Седоны</h3>
           <img src="img/welcome-text.svg" alt="Картинка каньона Седоны" width="458" height="352">
-          <img class="divider" src="img/divider.svg" alt="" height="57" width="1200">
+          <img class="welcome-image__divider" src="img/divider.svg" alt="" height="57" width="1200">
         </section>
-        <section class="main-welcome-text">
+        <section class="main-container__welcome-text">
           <h1 class="visually-hidden">Туристический город Седона</h1>
-          <p class="main-slogan">Седона &mdash; небольшой городок в Аризоне,<br> заслуживающий большего!</p>
-          <p class="main-description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+          <p class="welcome-text__slogan">Седона &mdash; небольшой городок в Аризоне,<br> заслуживающий большего!</p>
+          <p class="welcome-text__description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
         </section>
-        <section class="advantages">
+        <section class="main-container__advantages">
           <h2 class="visually-hidden">Преимущества Седоны</h2>
-          <ol class="advantages-list">
-            <li class="advantages-item advantages-item-large">
-              <div class="advantage-large">
-                <h3 class="advantages-title">Настоящий<br> городок</h3>
-                <div class="advantages-number">&mdash; №1 &mdash;</div>
-                <p class="advantages-text">Седона — не аттракцион<br> для туристов, там течёт<br> своя жизнь</p>
+          <ol class="advantages__advantages-list">
+            <li class="advantages-list__item">
+              <div class="advantages-list__item--large">
+                <h3 class="advantages-list__item-title">Настоящий<br> городок</h3>
+                <div class="advantages-list__item-number">&mdash; №1 &mdash;</div>
+                <p class="advantages-list__item-text">Седона — не аттракцион<br> для туристов, там течёт<br> своя жизнь</p>
               </div>
-              <img class="advantages-img-first" src="img/content/city-photo.jpg" alt="Фото города Седона с заведенями" width="800" height="384">
-              <ul class="advantages-list advantages-list-inner">
-                <li class="advantages-listed-item">
-                  <img class="advantages-icons" src="img/icon-home.svg" alt="Иконка жилья" focusable="false" width="74" height="72">
-                  <h4 class="advantages-title">Жильё</h4>
-                  <p class="advantages-text">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!</p>
+              <img class="advantages-list__image--first" src="img/content/city-photo.jpg" alt="Фото города Седона с заведенями" width="800" height="384">
+              <ul class="advantages__advantages-list advantages__advantages-list--inner">
+                <li class="advantages-list-inner__item">
+                  <img class="advantages-list__icons" src="img/icon-home.svg" alt="Иконка жилья" focusable="false" width="74" height="72">
+                  <h4 class="advantages-list__item-title">Жильё</h4>
+                  <p class="advantages-list__item-text">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!</p>
                 </li>
-                <li class="advantages-listed-item">
-                  <img class="advantages-icons" src="img/icon-food.svg" alt="Иконка еды" focusable="false" width="76" height="69">
-                  <h4 class="advantages-title">Еда</h4>
-                  <p class="advantages-text">Всегда заказывайте<br> топовый фирменный бургер,<br> вы не разочаруетесь!</p>
+                <li class="advantages-list-inner__item">
+                  <img class="advantages-list__icons" src="img/icon-food.svg" alt="Иконка еды" focusable="false" width="76" height="69">
+                  <h4 class="advantages-list__item-title">Еда</h4>
+                  <p class="advantages-list__item-text">Всегда заказывайте<br> топовый фирменный бургер,<br> вы не разочаруетесь!</p>
                 </li>
-                <li class="advantages-listed-item">
-                  <img class="advantages-icons" src="img/icon-souvenirs.svg" alt="Иконка сувениров" focusable="false" width="63" height="75">
-                  <h4 class="advantages-title">Сувениры</h4>
-                  <p class="advantages-text">Не только китайского,<br> но и настоящего местного<br> производства!</p>
+                <li class="advantages-list-inner__item">
+                  <img class="advantages-list__icons" src="img/icon-souvenirs.svg" alt="Иконка сувениров" focusable="false" width="63" height="75">
+                  <h4 class="advantages-list__item-title">Сувениры</h4>
+                  <p class="advantages-list__item-text">Не только китайского,<br> но и настоящего местного<br> производства!</p>
                 </li>
               </ul>
             </li>
-            <li class="advantages-item advantages-item-large">
-              <img class="advantages-img-second" src="img/content/canyon-photo.jpg" alt="Фото Моста дьявола: природного каменного моста между скалами" width="800" height="384">
-              <div class="advantage-large">
-                <h3 class="advantages-title">Там есть<br> мост дьявола</h3>
-                <div class="advantages-number">&mdash; №2 &mdash;</div>
-                <p class="advantages-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <li class="advantages-list__item">
+              <img class="advantages-list__image--second" src="img/content/canyon-photo.jpg" alt="Фото Моста дьявола: природного каменного моста между скалами" width="800" height="384">
+              <div class="advantages-list__item--large">
+                <h3 class="advantages-list__item-title">Там есть<br> мост дьявола</h3>
+                <div class="advantages-list__item-number">&mdash; №2 &mdash;</div>
+                <p class="advantages-list__item-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
             </li>
-            <li class="advantages-item">
-              <h3 class="advantages-title">Небольшая<br> площадь</h3>
-              <div class="advantages-number">&mdash; №3 &mdash;</div>
-              <p class="advantages-text">Все достопримечательности находятся очень близко</p>
+            <li class="advantages-list__item">
+              <h3 class="advantages-list__item-title">Небольшая<br> площадь</h3>
+              <div class="advantages-list__item-number">&mdash; №3 &mdash;</div>
+              <p class="advantages-list__item-text">Все достопримечательности находятся очень близко</p>
             </li>
-            <li class="advantages-item">
-              <h3 class="advantages-title">Красивая<br> дорога</h3>
-              <div class="advantages-number">&mdash; №4 &mdash;</div>
-              <p class="advantages-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            <li class="advantages-list__item">
+              <h3 class="advantages-list__item-title">Красивая<br> дорога</h3>
+              <div class="advantages-list__item-number">&mdash; №4 &mdash;</div>
+              <p class="advantages-list__item-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </li>
-            <li class="advantages-item">
-              <h3 class="advantages-title">Мало<br> туристов</h3>
-              <div class="advantages-number">&mdash; №5 &mdash;</div>
-              <p class="advantages-text">Большинство едет в Гранд Каньон и толпится там</p>
+            <li class="advantages-list__item">
+              <h3 class="advantages-list__item-title">Мало<br> туристов</h3>
+              <div class="advantages-list__item-number">&mdash; №5 &mdash;</div>
+              <p class="advantages-list__item-text">Большинство едет в Гранд Каньон и толпится там</p>
             </li>
           </ol>
         </section>
-        <section class="main-todo-button">
+        <section class="main__todo-section">
           <h2>Заинтересовались?</h2>
           <p>Укажите предполагаемые даты поездки,<br><span>и мы покажем вам лучшие предложения гостиниц в Седоне</span></p>
-          <a class="search-hotel-button" href="#">
+          <a class="todo-section__search-button" href="#">
             Поиск гостиницы в Седоне
           </a>
         </section>
       </article>
     </main>
     <footer class="page-footer">
-      <section class="main-footer">
-        <div class="subscribe-block">
+      <section class="page-footer--index">
+        <div class="page-footer__subscribe-block">
           <h2>Подпишитесь на рассылку</h2>
           <p>Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
-          <form class="footer-subscribe" action="https://echo.htmlacademy.ru/courses" method="post">
+          <form class="subscribe-block__form" action="https://echo.htmlacademy.ru/courses" method="post">
             <label>
-            <input class="email" type="email" name="email" value="Ваш e-mail">
-            <button class="subscribe-button" type="submit">Подписаться</button>
+            <input class="form__email" type="email" name="email" value="Ваш e-mail">
+            <button class="form__button" type="submit">Подписаться</button>
             </label>
           </form>
         </div>
       </section>
-      <section class="contacts">
+      <section class="page-footer__contacts">
         <h3 class="visually-hidden">Ссылки на социальные сети</h3>
-        <ul class="footer-links">
-          <li class="social-link">
+        <ul class="contacts__links">
+          <li class="contacts__links--social">
             <a class="twitter" href="#">
               <span class="visually-hidden">Twitter</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15">
@@ -155,7 +155,7 @@
               </svg>
             </a>
           </li>
-          <li class="social-link">
+          <li class="contacts__links--social">
             <a class="facebook" href="#">
               <span class="visually-hidden">Facebook</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18">
@@ -170,7 +170,7 @@
               </svg>
             </a>
           </li>
-          <li class="social-link">
+          <li class="contacts__links--social">
             <a class="youtube" href="#">
               <span class="visually-hidden">YouTube</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16">
@@ -186,10 +186,10 @@
             </a>
           </li>
         </ul>
-        <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-        <a class="footer-developer" href="https://htmlacademy.ru/">
+        <a class="contacts__phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <a class="contacts__developer" href="https://htmlacademy.ru/">
           <span class="visually-hidden">htmlacademy</span>
-          <svg class="developer-logo" xmlns="http://www.w3.org/2000/svg" width="115" height="34" viewBox="0 0 115 34">
+          <svg class="contacts__developer-logo" xmlns="http://www.w3.org/2000/svg" width="115" height="34" viewBox="0 0 115 34">
             <path d="M0 12.8999V15.4999H2.5V12.8999H0Z"/>
             <path d="M11.5999 4.5C9.9999 4.5 8.7999 5.2 7.9999 6.2H7.8999V0H5.8999V15.5H7.8999V10.2C7.8999 8.1 9.1999 6.6 11.1999 6.6C12.9999 6.6 14.0999 8 14.0999 9.8V15.5H16.0999V9.4C16.1999 6.4 14.2999 4.5 11.5999 4.5Z"/>
             <path d="M26.5999 4.8001H21.7999V1.1001H19.7999V4.9001H17.8999V6.9001H19.7999V12.9001C19.7999 14.6001 20.7999 15.6001 22.4999 15.6001H26.5999V13.6001H22.8999C22.1999 13.6001 21.7999 13.2001 21.7999 12.5001V6.8001H26.5999V4.8001Z"/>
@@ -206,36 +206,36 @@
         </a>
       </section>
     </footer>
-    <div class="modal-window modal-closed">
-      <div class="booking-window">
-        <button class="close-modal-button" type="button"><span class="visually-hidden">Закрыть</span></button>
-        <section class="modal-content">
+    <div class="index__modal-window modal-window--closed">
+      <div class="modal-window__booking-window">
+        <button class="booking-window__close-modal-button" type="button"><span class="visually-hidden">Закрыть</span></button>
+        <section class="booking-window__content">
           <h2>Поиск гостиницы в Седоне</h2>
-          <form class="booking-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label class="arrival-date" for="arrival-date">Дата заезда:</label>
-            <input class="arrival-booking-date" type="text" id="arrival-date" name="arrival-date" placeholder="27 апреля 2020">
-            <p class="date-error">Мы не можем отправить вас в прошлое.</p>
-            <label class="departure-date" for="departure-date">Дата выезда:</label>
-            <input class="departure-booking-date" type="text" id="departure-date" name="departure-date" placeholder="1 сентября 2021">
-            <p class="date-available">На эти даты есть свободные номера. Пока есть.</p>
-            <label class="adult" for="adult-number">Взрослые:
-              <div class="adult-number">
-                <button class="subtract" type="button">-</button>
-                <input class="number" type="number" id="adult-number" name="adult-number" placeholder="2">
-                <button class="add" type="button">+</button>
+          <form class="content__booking-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="booking-form__arrival-date" for="arrival-date">Дата заезда:</label>
+            <input class="booking-form__arrival-date-input" type="text" id="arrival-date" name="arrival-date" placeholder="27 апреля 2020">
+            <p class="booking-form__date--error">Мы не можем отправить вас в прошлое.</p>
+            <label class="booking-form__departure-date" for="departure-date">Дата выезда:</label>
+            <input class="booking-form__departure-date-input" type="text" id="departure-date" name="departure-date" placeholder="1 сентября 2021">
+            <p class="booking-form__date--available">На эти даты есть свободные номера. Пока есть.</p>
+            <label class="booking-form__adult-section" for="adult-number">Взрослые:
+              <div class="adult-secton__number-section">
+                <button class="number-section__subtract" type="button">-</button>
+                <input class="number-section__subtract" type="number" id="adult-number" name="adult-number" placeholder="2">
+                <button class="number-section__add" type="button">+</button>
               </div>
             </label>
-            <label class="child" for="child-number">Дети:
-              <div class="popover">
-                <p class="popover-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</p>
+            <label class="booking-form__child-section" for="child-number">Дети:
+              <div class="child-section__popover">
+                <p class="popover__text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</p>
               </div>
             </label>
-            <div class="child-number">
-              <button class="subtract" type="button">-</button>
-              <input class="number" type="number" id="child-number" name="child-number" placeholder="1">
-              <button class="add" type="button">+</button>
+            <div class="child-section__number-section">
+              <button class="number-section__subtract" type="button">-</button>
+              <input class="number-section__subtract" type="number" id="child-number" name="child-number" placeholder="1">
+              <button class="number-section__add" type="button">+</button>
             </div>
-            <button class="booking-search-button" type="button">Найти</button>
+            <button class="booking-form__search-button" type="button">Найти</button>
           </form>
         </section>
       </div>
