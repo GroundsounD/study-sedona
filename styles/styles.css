@@ -1189,16 +1189,19 @@ body {
   border: 3px solid transparent;
 }
 
-.filter-buttons--apply:hover {
+.filter-buttons--apply:hover,
+.load-more__button:hover {
   background-color: #68a2ca;
 }
 
-.filter-buttons--apply:focus {
+.filter-buttons--apply:focus,
+.load-more__button:focus {
   background-color: #68a2ca;
   outline: 3px solid #ffffff;
 }
 
-.filter-buttons--apply:active {
+.filter-buttons--apply:active,
+.load-more__button:active {
   background-color: #68a2ca;
   outline: none;
   color: rgba(255, 255, 255, 0.3);
