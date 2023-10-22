@@ -1049,11 +1049,11 @@ body {
   flex-shrink: 0;
 }
 
-.navigation-item:hover {
+.navigation__item:hover {
   color: #756257;
 }
 
-.navigation-item:active {
+.navigation__item:active {
   color: rgba(117, 98, 87, 0.3);
 }
 
@@ -1245,7 +1245,6 @@ body {
   color: #333333;
 }
 
-.search-sorting__sorting-type,
 .hotels-visible-now__sorting-type img {
   display: block;
 }
